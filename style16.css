@@ -1,0 +1,70 @@
+*{
+  margin: 0
+}
+.container{
+  background-color: #dbdbdb;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100px
+}
+
+.container2{
+  background-color: #dbdbdb;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100px
+}
+
+.box{
+  padding: 30px;
+  color: white ;
+  font-family:  arial;
+  font-size: 2em;
+  text-align: center;
+  height: 100px;
+  width: 200px;
+}
+.box1, .box11 {
+  background-color: #4ea384;
+}
+.box2, .box12{
+  background-color: #43de5c;
+}
+.box3, .box13{
+  background-color: #1f81cc;
+}
+.box4, .box14{
+  background-color: #5f3bd9;
+}
+.box5, .box15{
+  background-color: #2b2c69;
+}
+.box6, .box16{
+  background-color: #f5c84e;
+}
+.box7, .box17{
+  background-color: #e68210;
+}
+.box8, .box18{
+  background-color: #f24413;
+}
+.box9, .box19{
+  background-color: #b3b0af;
+}
+.box10{
+  background-color: #706f6f;
+}
+
+.box1, .box5, .box9, .box13, .box17{
+  align-self: flex-start;
+}
+.box2, .box4, .box6, .box8, .box10, .box12, .box14, .box16, .box18{
+  align-self: center;
+}
+.box3, .box7, .box11, .box15, .box19{
+  align-self: flex-end;
+}
